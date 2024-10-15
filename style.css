@@ -1,0 +1,490 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Noto Sans Mono', Arial, Helvetica, sans-serif;
+    width: 100vw;
+}
+.container{
+    width: 70vw;
+    /* background-color: aqua; */
+}
+
+.top{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* background-color: wheat; */
+    width: 70vw;
+}
+/* header{
+    display: flex;
+    align-items: center;
+} */
+.logo{
+    /* margin-top: 10px; */
+    padding-top: 10px;
+    height: 80px;
+    width: 80px;
+    background-color: none;
+}
+.title{
+    margin:0;
+    padding: 0;
+    position: absolute;
+    top: 8px;   
+    left: 100px;
+}
+
+.star-icon{
+    font-size: 35px;
+    display: flex; 
+    align-items: center; 
+    margin-left: 20px;
+    position: absolute; 
+    left: 500px; 
+    top: 15px; 
+    border: none;
+    background: none;
+}
+
+
+.star-icon:hover{
+    color: yellow;
+    cursor: pointer;
+}
+.buttons{
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+.btn{
+    background: none;
+    border: none;
+    font-size: 15px;
+    font-weight:bolder;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+.right-header{
+    display: flex;
+    /* align-items: right; */
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute ;
+    top:1px;
+    right: 1px;
+    width: 30vw;
+    /* background-color: wheat; */
+    padding-top: 6px;
+}
+/* .right-header img{
+    height: 30px;
+    width: 30px;
+    /* color: black; */
+    /* padding-left: 10px;
+    margin: 10px;
+} */ 
+.btn:hover{
+    background-color: rgba(164, 162, 162, 0.3);
+    color: black;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* .right-header img:hover{
+    background-color: rgba(164, 162, 162, 0.3);
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px;
+} */
+
+/* .jpg-btn svg{
+    height: 50px;
+    padding-left: 20px;
+    display: flex;
+    align-content: center; 
+    margin: 10px;   
+} */
+
+/* .jpg-btn{
+    background: none;
+    border: none;
+    font-size: 15px;
+    font-weight:bolder;
+} */
+
+/* .jpg-btn:hover{
+    border-radius: 5px;
+    background-color: rgba(164, 162, 162, 0.3);
+} */
+.lastedit{
+    margin-top: 10px;
+    padding-left: 10px;
+    background: none;
+    border: none;
+    padding: 5px;
+    margin: 10px;
+}
+
+.lastedit:hover{
+    background-color: rgba(164, 162, 162, 0.3);
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+}
+.comment{
+    margin-top: 10px;
+    padding-left: 10px;
+    background: none;
+    border: none;
+    padding: 5px;
+    margin: 10px;
+}
+
+.comment:hover{
+    background-color: rgba(164, 162, 162, 0.3);
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+}
+.videocall{
+    margin-top: 10px;
+    padding-left: 10px;
+    background: none;
+    border: none;
+    padding: 5px;
+    margin: 10px;
+}
+
+.videocall:hover{
+    background-color: rgba(164, 162, 162, 0.3);
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+}
+.share{
+    background-color: rgba(12, 189, 189, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    border: none;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    /* margin-right: 2px; */
+    margin: 10px;
+    margin-right:2px;
+    height: 50px;
+    padding: 20px;
+}
+
+.share:hover{
+    background-color: rgba(8, 155, 155, 0.5);
+}
+
+.dropdown-btn{
+    background-color: rgba(12, 189, 189, 0.3);
+    border: none;
+    padding-left: 5px;
+    margin-left: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+.dropdown-btn:hover{
+    background-color: rgba(8, 155, 155, 0.5);
+}
+
+.profile{
+border: none;
+background: none;
+/* border-radius: 50px; */
+}
+
+
+.profile-pic{
+    height: 50px;
+    width: 40px;
+    border: 3px solid black;
+    background: none;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin: 10px;
+    box-shadow: 0 0 10px 5px rgba(132, 132, 132, 0.4)
+}
+
+.options{
+    background-color: #e9e9e9;
+    margin: 15px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    align-items: center;
+}
+
+.search{
+    margin:8px;
+    background: none;
+    border: none;
+    padding: 5px;
+}
+.search:hover{
+    background: rgba(164, 162, 162, 0.3);
+    border-radius: 10px;
+}
+
+.undo{
+    margin-right:10px;
+    background: none;
+    border: none;
+    padding: 5px;
+}
+.undo:hover{
+    background: rgba(164, 162, 162, 0.3);
+    border-radius: 10px;
+}
+.redo{
+    margin-right:10px;
+    background: none;
+    border: none;
+    padding: 5px;
+}
+.redo:hover{
+    background-color:rgba(164, 162, 162, 0.3);
+    border-radius: 10px;
+}
+
+.print{
+    margin-right:10px;
+    background: none;
+    border: none;
+    padding: 5px;
+}
+.print:hover{
+    background-color:rgba(164, 162, 162, 0.3);
+    border-radius: 10px;
+}
+
+.paint-format{
+    margin-right:10px;
+    background: none;
+    border: none;
+    padding: 5px;
+}
+
+.paint-format:hover{
+    background-color:rgba(164, 162, 162, 0.3);
+    border-radius: 10px;
+}
+
+.zoomIn-Out{
+    margin-right:5px;
+    background: none;
+    border: none;
+    padding: 5px;
+    /* appearance:none; */
+}
+.zoomIn-Out:hover{
+    background-color:rgba(164, 162, 162, 0.3);
+    border-radius: 10px;
+}
+
+.zoom-select{
+    background: none;
+    color: black;
+    border-style:none;
+    font-size: 20px;
+    /* appearance: none; */
+}
+.font{
+    padding:5px;
+    font-size: 14px;
+    margin-right:3px;
+    background: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    appearance: none; /*it use to remove arrow in select list*/
+    text-align: center;
+}
+fieldset{
+    border: 1px solid grey;
+    border-style: none;
+    /* border: none; */
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+fieldset:hover{
+    background-color: rgba(164, 162, 162, 0.2);
+}
+.font:hover{
+    background-color:rgba(164, 162, 162, 0.5);
+}
+.minus{
+    margin-right:3px;
+    background: none;
+    border: none;
+    padding: 5px;
+}
+.minus:hover{
+    background-color:rgba(164, 162, 162, 0.3);
+    border-radius: 10px;
+}
+.font-size{
+    margin-right:3px;
+    background: none;
+    border: 2px solid black;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 10px;
+    appearance: none; /*it use to remove arrow in select list*/
+    text-align: center;
+}
+/* .font-size:hover{
+    background-color:rgba(164, 162, 162, 0.3);
+    border-radius: 10px;
+} */
+.add{
+    margin-right:3px;
+    background: none;
+    border: none;
+    padding: 5px;
+}
+.add:hover{
+    background-color:rgba(164, 162, 162, 0.3);
+    border-radius: 10px;
+}
+.bold{
+    margin-right:10px;
+    background: none;
+    border: none;
+    padding: 5px;
+}
+.bold:hover{
+    background-color:rgba(164, 162, 162, 0.3);
+    border-radius: 10px;
+}
+
+.italic{
+    margin-right:10px;
+    background: none;
+    border: none;
+    padding: 5px;
+}
+
+.italic:hover{
+    background-color:rgba(164, 162, 162, 0.3);
+    border-radius: 10px;
+}
+.strike-through{
+    margin-right:10px;
+    background: none;
+    border: none;
+    padding: 5px;
+}
+.strike-through:hover{
+    background-color:rgba(164, 162, 162, 0.3);
+    border-radius: 10px;
+}
+.font-color{
+    margin-right:10px;
+    background: none;
+    border: none;
+    padding: 5px;
+}
+.font-color:hover{
+    background-color:rgba(164, 162, 162, 0.3);
+    border-radius: 10px;
+}
+.format-color{
+    margin-right:10px;
+    background: none;
+    border: none;
+    padding: 5px;
+}
+.format-color:hover{
+    background-color:rgba(164, 162, 162, 0.3);
+    border-radius: 10px;
+}
+.border{
+    margin-right:10px;
+    background: none;
+    border: none;
+    padding: 5px;
+}
+.border:hover{
+    background-color:rgba(164, 162, 162, 0.3);
+    border-radius: 10px;
+}
+
+.currency{
+    margin-right:10px;
+    background: none;
+    border: none;
+    padding: 5px;
+}
+.currency:hover{
+    background-color:rgba(164, 162, 162, 0.3);
+    border-radius: 10px;
+}
+.percentage{
+    margin-right:10px;
+    background: none;
+    border: none;
+    padding: 5px;
+}
+.percentage:hover{
+    background-color:rgba(164, 162, 162, 0.3);
+    border-radius: 10px;
+}
+#grid-container{
+    display: grid;
+    grid-template-columns: 50px repeat(26,150px);
+    grid-template-rows: 50px repeat(20,50px);
+    height: auto;
+}
+.cell{
+    width: 150px;
+    height: 50px;
+    border: 2px solid rgba(128,128,128,0.5);
+
+    border-collapse:collapse;
+}
+.header{
+    font-weight: bolder;
+    font-size: x-large;
+    text-align: center;
+    border: 2px solid grey;
+    background-color:rgba(164, 162, 162, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    border-collapse:collapse;
+}
+.selected{
+    outline: 2px solid #0b57d0;
+    outline-width: 2px;
+    border-collapse: collapse;
+    background-color: rgba(0, 218, 252, 0.322);
+    font-weight: bold;
+}
